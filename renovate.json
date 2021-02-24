@@ -10,7 +10,7 @@
       "matchStrings": [
         "VERSION__K8s_PROVIDER: '(?<currentValue>.*?)'"
     ],
-      "depNameTemplate": "fiveai/terraform-provider-k8s/releases",
+      "depNameTemplate": "fiveai/terraform-provider-k8s",
       "datasourceTemplate": "github-tags",
       "versioningTemplate": "regex:^v(?<major>\\d+)(\\.(?<minor>\\d+))(\\.(?<patch>\\d+))$"
     }
