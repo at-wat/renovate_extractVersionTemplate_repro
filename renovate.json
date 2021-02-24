@@ -6,7 +6,7 @@
   "prConcurrentLimit": 5,
   "regexManagers": [
     {
-      "fileMatch": ["^version.yml$"],
+      "fileMatch": ["^version.yaml$"],
       "matchStrings": [
         "VERSION__K8s_PROVIDER: '(?<currentValue>.*?)'"
     ],
