@@ -11,11 +11,16 @@
         "VERSION__K8s_PROVIDER: '(?<currentValue>.*?)'"
     ],
       "depNameTemplate": "fiveai/terraform-provider-k8s",
-      "datasourceTemplate": "github-tags",
-      "extractVersionTemplate": "^v(?<version>.*)$"
+      "datasourceTemplate": "github-tags"
     }
   ],
   "enabledManagers": [
     "regex"
+  ],
+  "packageRules": [
+    {
+      "packageNames": ["fiveai/terraform-provider-k8s"],
+      "extractVersion": "^v(?<version>.*)$"
+    }
   ]
 }
