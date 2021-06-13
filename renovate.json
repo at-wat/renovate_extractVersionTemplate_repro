@@ -19,7 +19,7 @@
   ],
   "packageRules": [
     {
-      "packageNames": ["fiveai/terraform-provider-k8s"],
+      "matchPackagePatterns": ["^fiveai/terraform-provider-*"],
       "extractVersion": "^v(?<version>.*)$"
     }
   ]
